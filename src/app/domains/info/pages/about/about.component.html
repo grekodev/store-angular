@@ -1,0 +1,10 @@
+<div>
+  <h1 class="text-lg font-bold">About</h1>
+  <p class="text-xs" highlight>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium adipisci dignissimos explicabo
+    incidunt ipsum iure labore laborum magnam, nulla omnis quas quod quos reiciendis reprehenderit saepe, sequi totam
+  veniam!</p>
+  <p class="text-xs">Numbero de clientes : @if (duration() > 0) {
+    <app-couter [duration]="duration()" [message]="mensaje()"/>
+  }</p>
+  <app-wave-audio audioUrl="assets/audio.mp3" />
+</div>
